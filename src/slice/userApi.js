@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 const apiPath =
-  "https://url-s-backend-k2p88ncb7-jays-projects-d5fe4e9e.vercel.app";
+  "https://url-s-backend.vercel.app";
 
 export const loginUser = createAsyncThunk(
   "user/login",
